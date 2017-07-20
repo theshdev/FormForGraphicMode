@@ -1,5 +1,13 @@
 #!/bin/bash
 zenity --version || exit
+if [ $1 == "-h" ];then
+	echo "-u uninstall the program"
+elif [ $1 == "-u"];then
+	rm -rf /usr/bin/formforgraphicmode
+else
+	echo "Unknown Option"
+fi
+
 
 path=$(zenity --entry --title="FFGM" --text="Enter the file path: ")
 nper=$(zenity --entry --title="FFGM" --text="How many questions do you want to generate? ")
