@@ -1,8 +1,8 @@
 #!/bin/bash
 zenity --version || exit
-if [ $1 == "-h" ];then
+if [[ $1 == "-h" ]];then
 	echo "-u uninstall the program"
-elif [ $1 == "-u"];then
+elif [[ $1 == "-u"]];then
 	rm -rf /usr/bin/formforgraphicmode
 else
 	echo "Unknown Option"
