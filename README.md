@@ -1,5 +1,8 @@
-# FormForTextMode
+# FormForGraphicMode
 Create forms with no limit on questions on Linux
+
+# Dependencies
+Zenity
 
 # How to install?
 <p>
