@@ -15,3 +15,6 @@ sudo ./install.sh
 chmod +x uninstall.sh <br />
 sudo ./uninstall.sh 
 </p>
+
+# Thank you for your help:
+Pedro
