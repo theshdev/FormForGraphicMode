@@ -1,4 +1,5 @@
 #!/bin/bash
+zenity --version || exit
 
 path=$(zenity --entry --title="FFGM" --text="Enter the file path: ")
 nper=$(zenity --entry --title="FFGM" --text="How many questions do you want to generate? ")
