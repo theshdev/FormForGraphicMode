@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -rf /usr/bin/formforgraphicmode
+sudo rm -rf /usr/bin/formforgraphicmode
