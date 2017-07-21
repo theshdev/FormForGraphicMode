@@ -28,6 +28,6 @@ https://github.com/theshdev/FormForGraphicMode
 #### Made by:
 theshdev
 
-###### Version 1.0
+###### Version 1.0.1
 <p>
-First official version.<br /> Fix a lot of bugs </p>
+Option to check the version</p>
