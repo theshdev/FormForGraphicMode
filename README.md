@@ -18,3 +18,6 @@ sudo ./uninstall.sh
 
 # Thank you for your help:
 Pedro
+
+# We're at GitHub
+https://github.com/theshdev/FormForGraphicMode
