@@ -21,7 +21,7 @@ npern=1
 while [[ $nperp -ne 0 ]]; do
 	pergunta=$(zenity --entry --title="FFGM" --text="Enter the question: ")
 	if [[ $pergunta == $(echo) ]];then
-		npern=$(($npern-1)
+		npern=$(($npern-1))
 	fi
 	declare "pergunta$npern=$pergunta"
 	npern=$(($npern+1))
