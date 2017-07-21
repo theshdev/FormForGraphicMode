@@ -2,5 +2,4 @@
 
 zenity --version || exit
 clear
-chmod +x src/formforgraphicmode.sh
-./src/formforgraphicmode.sh
+bash src/formforgraphicmode.sh
