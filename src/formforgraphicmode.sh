@@ -1,9 +1,12 @@
 #!/bin/bash
 zenity --version || exit
+clear
 if [ "$1" == "-h" ]; then
-	echo "-u uninstall the program"; exit
+	echo "-u Uninstall the program\n-v Shows the program version"; exit
 elif [ "$1" == "-u" ]; then
 	rm -rf /usr/bin/formforgraphicmode; exit
+elif [ "$1" == "-v" ]; then
+	echo -e "\nVersion: 1.0.1\nTeam:\nDevelopers:\n *theshdev\nDebuggers:\n *theshdev\n *Pedro \n"; exit  
 else
 	echo "Running FFGM"
 fi
