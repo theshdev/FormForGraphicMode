@@ -4,6 +4,12 @@ Create forms with no limit on questions on Linux
 # Dependencies
 Zenity
 
+# How to run the program without installing?
+<p>
+chmod +x run.sh <br />
+./run.sh
+</p>
+
 # How to install?
 <p>
 chmod +x install.sh <br />
