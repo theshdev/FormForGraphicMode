@@ -2,7 +2,7 @@
 zenity --version || exit
 if [[ $1 == "-h" ]];then
 	echo "-u uninstall the program"
-elif [[ $1 == "-u" ]]
+elif [[ $1 == "-u" ]];then
 	rm -rf /usr/bin/formforgraphicmode
 fi
 
