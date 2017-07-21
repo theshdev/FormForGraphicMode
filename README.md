@@ -22,5 +22,5 @@ Pedro
 # We're at GitHub
 https://github.com/theshdev/FormForGraphicMode
 
-#Made by:
+# Made by:
 theshdev
