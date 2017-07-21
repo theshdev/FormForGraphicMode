@@ -12,7 +12,7 @@ nper=$(zenity --entry --title="FFGM" --text="How many questions do you want to g
 
 nperp=$nper
 npern=1
-while [ $nperp -ne 0 ]; do
+while [[ $nperp -ne 0 ]]; do
 	pergunta=$(zenity --entry --title="FFGM" --text="Enter the question: ")
 	declare "pergunta$npern=$pergunta"
 	npern=$(($npern+1))
