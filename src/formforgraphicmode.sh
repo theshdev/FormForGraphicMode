@@ -8,7 +8,13 @@ fi
 
 
 path=$(zenity --entry --title="FFGM" --text="Enter the file path: ")
+if [[ $path == $(echo) ]];then
+	exit
+fi
 nper=$(zenity --entry --title="FFGM" --text="How many questions do you want to generate? ")
+if [[ $nper == $(echo) ]];then
+	exit
+fi
 
 nperp=$nper
 npern=1
